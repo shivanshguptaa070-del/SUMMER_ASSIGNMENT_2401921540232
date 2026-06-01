@@ -1,18 +1,18 @@
 class Solution(object):
     def maxSubArray(self, nums):
-       
+    
      
-        max_sum = nums[0]
-        current_sum = 0
+        maxsum = nums[0]
+        sum = 0
 
-        for num in nums:
-            current_sum += num
+        for i in nums:
+            sum += i
 
-            if current_sum > max_sum:
-                max_sum = current_sum
+            if sum > maxsum:
+                maxsum = sum
 
-            if current_sum < 0:
-                current_sum = 0
+            if sum < 0:
+                sum = 0
 
-        return max_sum
+        return maxsum
         
