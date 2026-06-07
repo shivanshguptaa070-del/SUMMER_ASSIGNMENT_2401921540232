@@ -2,7 +2,6 @@ public class LibraryInterfaceDemo
 {
     public static void main(String[] args)
     {
-        // Test Case 1 - KidUser
 
         KidUser kid = new KidUser();
 
@@ -20,7 +19,6 @@ public class LibraryInterfaceDemo
 
         System.out.println();
 
-        // Test Case 2 - AdultUser
 
         AdultUser adult = new AdultUser();
 
