@@ -5,23 +5,21 @@ import music.string.Veena;
 import music.wind.Saxophone;
 
 public class Test {
+
     public static void main(String[] args) {
 
-        // a. Create Veena object
-        Veena v = new Veena();
-        v.play();
+        Veena veena = new Veena();
+        veena.play();
 
-        // b. Create Saxophone object
-        Saxophone s = new Saxophone();
-        s.play();
+        Saxophone sax = new Saxophone();
+        sax.play();
 
-        // c. Polymorphism using Playable reference
-        Playable p;
+        Playable instrument;
 
-        p = v;
-        p.play();
+        instrument = veena;
+        instrument.play();
 
-        p = s;
-        p.play();
+        instrument = sax;
+        instrument.play();
     }
 }
