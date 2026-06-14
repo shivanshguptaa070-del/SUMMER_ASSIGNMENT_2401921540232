@@ -1,0 +1,13 @@
+# Ignore Java compiled classes
+*.class
+
+# Ignore IDE settings
+.vscode/
+
+# Ignore local JDK bundles
+oracleJdk-26/
+**/oracleJdk-26/
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
